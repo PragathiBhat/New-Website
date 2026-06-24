@@ -38,7 +38,7 @@ export function SiteSection() {
       <div className="grid md:grid-cols-2 gap-10 items-start mb-16">
         <Reveal>
           <div className="relative rounded-2xl overflow-hidden border border-white/10">
-            <img src="/assets/target-location.jpg" alt="Marktplatz Wolfsburg site plan" className="w-full block" />
+            <img src={`${import.meta.env.BASE_URL}assets/target-location.jpg`} alt="Marktplatz Wolfsburg site plan" className="w-full block" />
           </div>
         </Reveal>
         <Reveal delay={0.1}>

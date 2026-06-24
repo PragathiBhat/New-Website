@@ -39,7 +39,7 @@ export function ObservationSection() {
         className="relative w-full aspect-video rounded-2xl overflow-hidden bg-[#0a0a0a] cursor-none"
       >
         <video autoPlay muted loop playsInline preload="none" className="w-full h-full object-cover grayscale contrast-125 brightness-75">
-          <source src="/assets/scanning-wolfsburg.mp4" type="video/mp4" />
+          <source src={`${import.meta.env.BASE_URL}assets/scanning-wolfsburg.mp4`} type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/30" />
 

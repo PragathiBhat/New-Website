@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-const VIDEO_URL = '/assets/scanning-wolfsburg.mp4';
+const VIDEO_URL = `${import.meta.env.BASE_URL}assets/scanning-wolfsburg.mp4`;
 
 export function ScrollVideoBackground({ fadeZoneId }: { fadeZoneId: string }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
